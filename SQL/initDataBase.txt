@@ -1,0 +1,19 @@
+#### for generate bdd : 
+
+1.Install Postgre SQL :
+https://www.postgresql.org/download/
+
+2. Run the init.SQL File to create empty db:
+APA_Api/SQL/init.SQL
+
+3. Run the node server to create table and relation : 
+on node console 'npm start'
+
+!!!!  DONE  !!!!
+
+Your table are created ! 
+ 
+If you want to fill some included data : Go to this special API endPoint : 
+http://localhost:8000/test
+
+A DataSet of 130 patient and 200 session are available on this init dataset.
